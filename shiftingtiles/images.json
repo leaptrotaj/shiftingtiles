@@ -1,17 +1,17 @@
 {
-    "images":  [
-                   "images/30x24.jpg",
-                   "images/39x25.jpg",
-                   "images/Beach Coast.jpg",
-                   "images/DJI_0402.JPG",
-                   "images/DJI_0633.JPG",
-                   "images/DJI_0227.JPG",
-                   "images/DJI_0308.JPG",
-                   "images/DJI_0324.JPG",
-                   "images/DJI_0341 EDIT.jpg",
-                   "images/DJI_0353.JPG",
-                   "images/DJI_0356.JPG",
-                   "images/DJI_0390.JPG",
-                   "images/DJI_0680.JPG"
-               ]
+  "images": [
+    "images/30x24.jpg",
+    "images/39x25.jpg",
+    "images/Beach Coast.jpg",
+    "images/DJI_0227.JPG",
+    "images/DJI_0308.JPG",
+    "images/DJI_0324.JPG",
+    "images/DJI_0341 EDIT.jpg",
+    "images/DJI_0353.JPG",
+    "images/DJI_0356.JPG",
+    "images/DJI_0390.JPG",
+    "images/DJI_0402.JPG",
+    "images/DJI_0633.JPG",
+    "images/DJI_0680.JPG"
+  ]
 }
