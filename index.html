@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Photo Album</title>
+  <title>Leaptrot Den Photo Album</title>
   <link rel="stylesheet" href="shiftingtiles/shiftingtiles.css">
   <link rel="icon" type="image/png" href="shiftingtiles/favicon.png">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -11,18 +11,34 @@
 </head>
 <body>
   <div id="elem" class="shiftingtiles"></div>
+
+  <script>
+    const images = ['images/30x24.jpg',
+      'images/39x25.jpg',
+      'images/Beach Coast.jpg',
+      'images/DJI_0227.JPG',
+      'images/DJI_0308.JPG',
+      'images/DJI_0324.JPG',
+      'images/DJI_0341 EDIT.jpg',
+      'images/DJI_0353.JPG',
+      'images/DJI_0356.JPG',
+      'images/DJI_0390.JPG',
+      'images/DJI_0402.JPG',
+      'images/DJI_0633.JPG',
+      'images/DJI_0680.JPG'
+];
+  </script>
+
   <script>
     $(function() {
-      $.getJSON("shiftingtiles/images.json", function(data) {
-        console.log("Loaded images:", data.images);
-        $("#elem").shiftingtiles(data.images, { 
-          duration: 6000,
-          jitterPercent: 0.25
-        });
+      console.log("Loaded images:", images);
+      $("#elem").shiftingtiles(images, { 
+        duration: 6000,
+        jitterPercent: 0.25
+      });
 
-        $("#elem").on("st-animate-before", function(e, disappear) {
-          console.log("Animating tile:", disappear);
-        });
+      $("#elem").on("st-animate-before", function(e, disappear) {
+        console.log("Animating tile:", disappear);
       });
     });
   </script>
